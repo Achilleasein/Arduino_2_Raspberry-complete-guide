@@ -52,7 +52,7 @@ footer {background: #aaa;color:white;}
 its NOT live feed, you need to refresh the webpage, to do it with live streaming you would need some extra javascript code, 
 it escapes the boundaries of this simple tutorial-->
 <?php
-	//The Credetials for the database, just some dummy words so you can get the idea, we use NON OBJECT ORIENTED mysql
+	//The credentials for the database, just some dummy words so you can get the idea, we use NON OBJECT ORIENTED mysql
 $servername = "localhost";
 $username = "achilleas";
 $password = "monogiaemena";
