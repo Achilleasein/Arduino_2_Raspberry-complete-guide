@@ -1,5 +1,6 @@
 # Arduino_2_Raspberry-complete-guide
-There are scrapes of information all over the web about the ways to connect arduino to a raspberry, I've created a complete guide and presented it as a student partner of Microsoft @ Patras Dept.
+There are scrapes of information all over the web about the ways to connect arduino to a raspberry, I've created a complete guide and presented it as a student partner of Microsoft @ Patras Dept. PS. There are some greek words left right and there.
+
 For this tutorial I'll be using a raspberry pi 3 B+(with an 8gb sd and its default power supply) and an Arduino Uno, also keep in mind that this is for complete begginers, so dont judge on things that may seem obvious to you, they arent obvious to everyone, feel free to mail me.
 To get started here are the prequisites:
 1. Raspbian OS on the sd card, u can use rufus to burn it on the sd card.
