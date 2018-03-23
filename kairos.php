@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- We just create the style for the header and the footer, nothing to crucial here -->
 <style> 
+
 .flex-container {
     display: -webkit-flex;
     display: flex;  
@@ -46,8 +48,11 @@ footer {background: #aaa;color:white;}
   <h1>Kalimera afentiko</h1>
 </header>
 
-
+<!-- Below starts  the php script that connects us to the database, it also echoes back all the information it retrieves
+its NOT live feed, you need to refresh the webpage, to do it with live streaming you would need some extra javascript code, 
+it escapes the boundaries of this simple tutorial-->
 <?php
+	//The Credetials for the database, just some dummy words so you can get the idea, we use NON OBJECT ORIENTED mysql
 $servername = "localhost";
 $username = "achilleas";
 $password = "monogiaemena";
