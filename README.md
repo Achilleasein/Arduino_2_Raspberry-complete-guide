@@ -6,6 +6,6 @@ To get started here are the prequisites:
 2. Just a few wires, you can add sensors later
 3. Ill be using I2C protocol for the ommunication, a good first read is [here](https://en.wikipedia.org/wiki/I%C2%B2C), pros and cons later
 4.Install apache-2 on your raspberry, a good first read is [here](https://en.wikipedia.org/wiki/Apache_HTTP_Server)
-.. dont follow the guide on the official site, since it says simply apache and it wont work
+... dont follow the guide on the official site, since it says simply apache and it wont work
 5. You will need sql and an admin service for that, for this tutorial we will stick with mysqldb, a good first read is [here](https://en.wikipedia.org/wiki/MySQL) Tovald bless wiki.
-.. you can use sqlite since its faster but I thought that its more suited for more advanced users.
+... you can use sqlite since its faster but I thought that its more suited for more advanced users.
