@@ -15,4 +15,11 @@ To get started here are the prequisites:
    You can use sqlite since its faster but I thought that its more suited for more advanced users.
 6. From there we will use PHP, HTML and CSS, for all those as well as mysql you can practice on [w3schools](https://www.w3schools.com/). It has helped me greatly as a website, their online interprenter is top-notch.
 
+#### Why I2C?
+
+We could easily use serial connections, after all the protocol is most of the time is easier to use, why then?
+1. I2C is faster, especially for small bytes of data, it takes less time to wind up and send the message.
+2. Its low energy, which is crucial for these kind of applications.
+3. Its easy to add more devices efficiently without worrying about implications and recuires very few wires.
+
 Any question you may have email me @ achilleasein@gmail.com, there is no license for the code of course, I've also studied some online tutorials and this is an old project of mine, but I've found one of the [links](https://oscarliang.com/raspberry-pi-arduino-connected-i2c/) I had used, what an amazing guy.
