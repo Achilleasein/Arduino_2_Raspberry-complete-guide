@@ -5,7 +5,7 @@ For this tutorial I'll be using a raspberry pi 3 B+(with an 8gb sd and its defau
 To get started here are the prequisites:
 1. Raspbian OS on the sd card, u can use rufus to burn it on the sd card.
 2. Just a few wires, you can add sensors later.
-3. Ill be using I2C protocol for the ommunication, a good first read is [here](https://en.wikipedia.org/wiki/I%C2%B2C), pros and cons later.
+3. Ill be using I^2C protocol for the communication, a good first read is [here](https://en.wikipedia.org/wiki/I%C2%B2C), pros and cons later.
 4. Install apache-2 on your raspberry, a good first read is [here](https://en.wikipedia.org/wiki/Apache_HTTP_Server).
 
    Dont follow the guide on the official site, since it says simply install apache and it wont work, you need apache-2.
