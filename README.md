@@ -29,6 +29,10 @@ You have to enable I2C from the raspi-config command,
 
 You can find info on how to install it [here](https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md), its important to try the phpinfo(), just in case, to do that you simply make a .php file within your localhost depo. To find easily where your www file is do twice >>cd .. which bring you up 2 directories and then use \*/www which will autofill the recuired path for your www, after your first time you can probably learn by heart the directory.
 
+#### What is the www folder? What is localhost?
+
+Basicaly its your portal to the outside world, every application opens a port, more specificaly the apache has the port:80 automaticly assigned to it. Lets make it more specific, when you fire up your browser you open a port, specificaly assigned to that application, then when you connect to a server your port delivers your IP to the server your trying to connect as part of the header of the file, you can read about the levels of network [here](https://en.wikipedia.org/wiki/OSI_model). Lets not get too technical here. Apache creates a www file, so when you make your PC a server when someone reaches out for your IP they automaticly hit the port:80 and they view the www file, more specificaly the index file thats inside, from there on you can view almost anything, thats where the magic happens and he hide away the scripts we use, on this example we hve them public, its as simple as it can get, so security wasnt a concern.
+
 Any question you may have email me @ achilleasein@gmail.com, there is no license for the code of course, I've also studied some online tutorials and this is an old project of mine, but I've found one of the [links](https://oscarliang.com/raspberry-pi-arduino-connected-i2c/) I had used, what an amazing guy.
 
 
