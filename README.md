@@ -22,4 +22,12 @@ We could easily use serial connections, after all the protocol is most of the ti
 2. Its low energy, which is crucial for these kind of applications.
 3. Its easy to add more devices efficiently without worrying about implications and recuires very few wires.
 
+You have to enable I2C from the raspi-config command, 
+
+#### Apache 2
+
+You can find info on how to install it [here](https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md), its important to try the phpinfo(), just in case, to do that you simply make a .php file within your localhost depo. To find easily where your www file is do twice >>cd .. which bring you up 2 directories and then use \*/www which will autofill the recuired path for your www, after your first time you can probably learn by heart the directory.
+
 Any question you may have email me @ achilleasein@gmail.com, there is no license for the code of course, I've also studied some online tutorials and this is an old project of mine, but I've found one of the [links](https://oscarliang.com/raspberry-pi-arduino-connected-i2c/) I had used, what an amazing guy.
+
+
