@@ -8,7 +8,8 @@ To get started here are the prequisites:
 3. Ill be using I2C protocol for the communication, a good first read is [here](https://en.wikipedia.org/wiki/I%C2%B2C), pros and cons later.
 4. Install apache-2 on your raspberry, a good first read is [here](https://en.wikipedia.org/wiki/Apache_HTTP_Server).
 
-   Dont follow the guide on the official site, since it says simply install apache and it wont work, you need apache-2.
+   ~Dont follow the guide on the official site, since it says simply install apache and it wont work, you need apache-2.~
+   They updated it.
 
 5. You will need sql and an admin service for that, for this tutorial we will stick with mysqldb, a good first read is [here](https://en.wikipedia.org/wiki/MySQL). Tovald bless wiki.
 
