@@ -24,10 +24,11 @@ void loop() {
 // callback for received data
 void receiveData(int byteCount){
 
+ //Checks if the wire is available to read/write, since when one device starts sending, it exclused all other devices from sending.
 while(Wire.available()) {
   number = Wire.read();
   Serial.print("data received: ");
-  Serial.println(number);
+  Serial.println(number); //Use arduino serial monitor to see if it works, remove from working prototype, it slows down the arduino
 
 if (number == 1){
 
