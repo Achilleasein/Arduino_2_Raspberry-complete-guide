@@ -31,15 +31,15 @@ Serial.println(number);
 
 if (number == 1){
 
-if (state == 0){
-digitalWrite(13, HIGH); // set the LED on
-state = 1;
-}
-else{
-digitalWrite(13, LOW); // set the LED off
-state = 0;
-}
-}
+  if (state == 0){
+    digitalWrite(13, HIGH); // set the LED on
+    state = 1;
+    }
+  else{
+    digitalWrite(13, LOW); // set the LED off
+    state = 0;
+    }
+  }
 }
 }
 
