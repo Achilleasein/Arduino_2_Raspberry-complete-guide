@@ -11,7 +11,7 @@ To get started here are the prequisites:
    ~Dont follow the guide on the official site, since it says simply install apache and it wont work, you need apache-2.~
    They updated it.
 
-5. You will need sql and an admin service for that, for this tutorial we will stick with mysqldb, a good first read is [here](https://en.wikipedia.org/wiki/MySQL). Tovald bless wiki.
+5. You will need sql and an admin service for that, for this tutorial we will stick with mysqldb, if you have time and you want your website to look pretty, mysql supplys some good libraries for making charts, didnt include them to make it as easy as possible but its worth to give it a look,a good first read is [here](https://en.wikipedia.org/wiki/MySQL). Tovald bless wiki.
 
    You can use sqlite since its faster but I thought that its more suited for more advanced users.
 6. From there we will use PHP, HTML and CSS, for all those as well as mysql you can practice on [w3schools](https://www.w3schools.com/). It has helped me greatly as a website, their online interprenter is top-notch.
