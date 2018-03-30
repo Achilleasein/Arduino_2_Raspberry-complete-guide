@@ -16,6 +16,8 @@ To get started here are the prequisites:
    You can use sqlite since its faster but I thought that its more suited for more advanced users.
 6. From there we will use PHP, HTML and CSS, for all those as well as mysql you can practice on [w3schools](https://www.w3schools.com/). It has helped me greatly as a website, their online interprenter is top-notch.
 
+7. I have also made a simple arduino project, which is a simple alarm system with a thermometer, its broken down in 2 pieces, you can find it on my github(its in Greek).
+
 #### Arduino VS Raspberry
 
 There is really no comparison, they are made for different things and different application, Arduino is a microcontroller and Raspberry is a microcomputer/microprocessor, the first runs precompiled code and the later has its own OS running at all times on it which also means no sleep/timeout periods, which also means higher energy consumption, a good video to understand can be found [here](https://www.youtube.com/watch?v=7vhvnaWUZjE).
