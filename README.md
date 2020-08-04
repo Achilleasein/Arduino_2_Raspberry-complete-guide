@@ -42,3 +42,6 @@ Basicaly its your portal to the outside world, every application opens a port, m
 Any question you may have email me @ achilleasein@gmail.com, there is no license for the code of course, I've also studied some online tutorials and this is an old project of mine, but I've found one of the [links](https://oscarliang.com/raspberry-pi-arduino-connected-i2c/) I had used, what an amazing guy.
 
 
+### Usefull resources
+
+raspberry pi GPIO: https://www.raspberrypi.org/documentation/usage/gpio/
